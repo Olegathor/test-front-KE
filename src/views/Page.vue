@@ -16,9 +16,11 @@
             <h1 class="h1-advantage">Почему KazanExpress — <br>лучший маркетплейс для бизнеса</h1>
             <div class="group-advantage">
               <div class="group-advantage-item">
-                <p class="p1-advantage">Комиссия <br>«Все включено»</p>
-                <div class="img-item">
-                  <div class="img-item-1"></div>
+                <div class="advantage-item-title-img">
+                  <p class="p1-advantage">Комиссия <br>«Все включено»</p>
+                  <div class="img-item">
+                    <div class="img-item-1"></div>
+                  </div>
                 </div>
                 <p class="p2-advantage">
                   У нас собственная система логистики, хранения и выдачи заказов. Благодаря ей мы можем установить для
@@ -27,9 +29,11 @@
               </div>
 
               <div class="group-advantage-item">
-                <p class="p1-advantage">Бесплатная <br>фотостудия</p>
-                <div class="img-item">
-                  <div class="img-item-2"></div>
+                <div class="advantage-item-title-img">
+                  <p class="p1-advantage">Бесплатная <br>фотостудия</p>
+                  <div class="img-item">
+                    <div class="img-item-2"></div>
+                  </div>
                 </div>
                 <p class="p2-advantage">
                   Наши покупатели должны видеть только красивые и качественные фотографии. Поэтому мы построили
@@ -38,53 +42,56 @@
               </div>
 
               <div class="group-advantage-item">
-                <p class="p1-advantage">Фирменные <br>пункты выдачи</p>
-                <div class="img-item">
-                  <div class="img-item-3"></div>
+                <div class="advantage-item-title-img">
+                  <p class="p1-advantage">Фирменные <br>пункты выдачи</p>
+                  <div class="img-item">
+                    <div class="img-item-3"></div>
+                  </div>
                 </div>
-                <!--                ????-->
+                <p class="p2-advantage">
+                  Красивые и уютные пункты выдачи заказов продуманы до мелочей и оставляют позитивные впечатления о
+                  маркетплейсе. С ними вы можете быть спокойны за сохранение лояльности постоянных покупателей.
+                </p>
                 <!--                <p class="p2-advantage">-->
-                <!--                  Красивые и уютные пункты выдачи заказов продуманы до мелочей и оставляют позитивные впечатления <br>о-->
-                <!--                  маркетплейсе. С ними <br>вы можете быть спокойны <br>за сохранение лояльности постоянных покупателей.-->
+                <!--                  Красивые и уютные пункты выдачи заказов продуманы до мелочей и оставляют позитивные впечатления-->
                 <!--                </p>-->
-                <p class="p2-advantage">
-                  Красивые и уютные пункты выдачи заказов продуманы до мелочей и оставляют позитивные впечатления
-                </p>
-                <p class="p2-advantage">
-                  о маркетплейсе. С ними
-                </p>
-                <p class="p2-advantage">
-                  вы можете быть спокойны
-                </p>
-                <p class="p2-advantage">
-                  за сохранение лояльности постоянных покупателей.
-                </p>
+                <!--                <p class="p2-advantage">-->
+                <!--                  о маркетплейсе. С ними-->
+                <!--                </p>-->
+                <!--                <p class="p2-advantage">-->
+                <!--                  вы можете быть спокойны-->
+                <!--                </p>-->
+                <!--                <p class="p2-advantage">-->
+                <!--                  за сохранение лояльности постоянных покупателей.-->
+                <!--                </p>-->
               </div>
 
               <div class="group-advantage-item">
-                <p class="p1-advantage">Доставка <br>до 24 часов</p>
-                <div class="img-item">
-                  <div class="img-item-4"></div>
+                <div class="advantage-item-title-img">
+                  <p class="p1-advantage">Доставка <br>до 24 часов</p>
+                  <div class="img-item">
+                    <div class="img-item-4"></div>
+                  </div>
                 </div>
-                <!--                <p class="p2-advantage">-->
-                <!--                  Эффективно выстроили все процессы, связанные с логистикой. Поэтому доставляем заказы за один день в-->
-                <!--                  любой пункт выдачи KazanExpress или прямо до двери.-->
-                <!--                </p>-->
                 <p class="p2-advantage">
-                  Эффективно выстроили
+                  Эффективно выстроили все процессы, связанные с логистикой. Поэтому доставляем заказы за один день в
+                  любой пункт выдачи KazanExpress или прямо до двери.
                 </p>
-                <p class="p2-advantage">
-                  все процессы, связанные
-                </p>
-                <p class="p2-advantage">
-                  с логистикой. Поэтому
-                </p>
-                <p class="p2-advantage">
-                  доставляем заказы за один день в любой пункт выдачи KazanExpress или прямо
-                </p>
-                <p class="p2-advantage">
-                  до двери.
-                </p>
+<!--                <p class="p2-advantage">-->
+<!--                  Эффективно выстроили-->
+<!--                </p>-->
+<!--                <p class="p2-advantage">-->
+<!--                  все процессы, связанные-->
+<!--                </p>-->
+<!--                <p class="p2-advantage">-->
+<!--                  с логистикой. Поэтому-->
+<!--                </p>-->
+<!--                <p class="p2-advantage">-->
+<!--                  доставляем заказы за один день в любой пункт выдачи KazanExpress или прямо-->
+<!--                </p>-->
+<!--                <p class="p2-advantage">-->
+<!--                  до двери.-->
+<!--                </p>-->
               </div>
             </div>
           </div>
@@ -146,7 +153,8 @@
               <h1 class="h1-seller">Стать продавцом</h1>
 
               <p class="p-seller">
-                Открыть свой бизнес с нами легко. <br>Всего пара шагов — и вот у вас уже есть свой магазин, поток клиентов
+                Открыть свой бизнес с нами легко. <br>Всего пара шагов — и вот у вас уже есть свой магазин, поток
+                клиентов
                 и продажи.
               </p>
 
@@ -189,45 +197,124 @@
           </div>
         </div>
       </section>
-      <div class="test">
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-        <h1>HEHE</h1>
-      </div>
+
+      <section class="faq">
+        <div class="faq-container">
+          <div>
+            <h1 class="h1-faq">Часто задаваемые вопросы</h1>
+          </div>
+
+          <div class="accord-faq">
+            <el-collapse v-model="activeName" accordion>
+              <el-collapse-item name="1">
+                <template slot="title">
+                  У меня нет опыта в продажах и в работе с маркетплейсом. Я могу стать продавцом?
+                </template>
+
+                <div>
+                  Мы предлагаем брендам продавать свои товары на KazanExpress без лишних хлопот. Вы поставляете товары
+                  нам, а взамен получаете новый рынок сбыта, прямой договор и стабильную прибыль.
+                </div>
+              </el-collapse-item>
+
+              <el-collapse-item name="2">
+                <template slot="title">
+                  Я боюсь, что мои товары не будут продаваться
+                </template>
+
+                <div>
+                  <q>
+                    Иным людям богатство только и приносит, что страх потерять его.
+                  </q>
+                  <br><i>— Антуан де Ривароль, французский писатель</i>
+                </div>
+              </el-collapse-item>
+
+              <el-collapse-item name="3">
+                <template slot="title">
+                  Как часто можно выводить средства и сколько взимается комиссия?
+                </template>
+
+                <div>
+                  Чаще, чем вам хочется, меньше, чем вы думаете.
+                </div>
+              </el-collapse-item>
+
+              <el-collapse-item name="4">
+                <template slot="title">
+                  Спустя 10 лет, кто убил Марка?
+                </template>
+
+                <div>
+                  Это серкетная информация.
+                </div>
+              </el-collapse-item>
+
+              <el-collapse-item name="5">
+                <template slot="title">
+                  А маркетплейс в один день не обанкротится? Какая вероятность, что это произойдет?
+                </template>
+
+                <div>
+                  <q>
+                    Только взаимный страх делает союз надежным.
+                  </q>
+                  <br><i>— Фукидид, древнегреческий историк</i>
+                </div>
+              </el-collapse-item>
+            </el-collapse>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- || [footer] || footer section || - || NOTE || -->
     <footer>
+      <div class="footer">
+        <!--        <div class="container">-->
+        <div class="footer-container">
+          <div class="footer-logo"></div>
+          <div class="footer-navigation">
+            <nav>
+              <ul class="footer-navigation-list">
+                <li>
+                  <a href="">Стать продавцом</a>
+                </li>
+                <li>
+                  <a href="">Предложить свои услуги</a>
+                </li>
+                <li>
+                  <a href="">Открыть пункт выдачи заказов</a>
+                </li>
+                <li>
+                  <a href="">Стать поставщиком товаров</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
 
+          <div class="footer-text">
+            <p>
+              Первый в России маркетплейс с бесплатной доставкой всегда за один день
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <p>
+              <a href="https://t.me/KazanExpress_Helper_Bot">@KazanExpress_Helper_Bot</a>
+            </p>
+
+            <span>
+                2021© ООО «Маркетплейс-технологии». ИНН 1615014120. Все права защищены.
+              </span>
+
+            <p>
+              <a href="">Следите за нами в Instagram</a>
+            </p>
+          </div>
+        </div>
+        <!--        </div>-->
+      </div>
     </footer>
 
     <!--    <div class="block-header">-->
@@ -281,7 +368,10 @@
 export default {
   name: 'Page',
   data() {
-    return {};
+    return {
+      activeName: '1',
+      Consistency: 'У меня нет опыта в продажах и в работе с маркетплейсом. Я могу стать продавцом?'
+    };
   },
 
   beforeCreate() {
@@ -334,29 +424,55 @@ h1
   letter-spacing -1.75px
   color #fafafa
 
+  //+Several(x1280, x1920)
+  //  color #ffb300
+
+
+  +x960()
+    color #e00f0f
+    font-size 50px
+    line-height 55px
+    letter-spacing -1.5px
+
+  +x640()
+    color #1ed760
+
+  +x320()
+    color #b565ff
+
 section
   width 1280px
   margin 0 auto
+
+  +x960()
+    width 960px
 
 //  *
 .header
   display flex
   justify-content center
+  align-items center
   width 1280px
   height 72px
   margin 0 auto
   //background-color lightgreen
   background-color #111111
 
+  +x960()
+    width 960px
+
 //
 
 // *
 .container
   display flex
-  align-items center
+  //align-items center
   //width calc(60% - 30px)
   //width calc(60.5% - 16px)
   width 1128px
+
+  +x960()
+    width 900px
 
 //margin 0 8px
 //padding 8px
@@ -386,8 +502,30 @@ section
   justify-content space-between
   margin 64px 0 0
 
+  +Several(x1280, x1920)
+    //flex-wrap nowrap
+    flex-wrap wrap
+
+
+  +x960()
+    flex-wrap wrap
+    margin 47px 0 0
+
+  +x640()
+    width 624px
+
+  +x320()
+    width 304px
+
 .advantage-container
   margin 126px 0 0
+
+  +x960()
+    margin 102px 0 0
+
+.h1-advantage
+  +x960()
+    width 600px
 
 .group-advantage-item
   background-color #1C1C1C
@@ -395,10 +533,22 @@ section
   margin 0 24px 0 0
   width 264px
   padding 16px
+  border-radius 6px
+
+  +x960()
+    height 266px
+    width 436px
+    margin 0 2px 24px 2px
+    padding-left 18px
+    padding-bottom 23px
 
 
 .group-advantage-item:last-child
   margin 0
+
+.advantage-item-title-img
+  +x960()
+    display flex
 
 .p1-advantage
   font-style normal
@@ -422,6 +572,9 @@ section
   height 94px
   margin 26px 0 74px 97px
 
+  +x960()
+    margin 8px 0 43px 181px
+
 //margin 26px 56px 74px 114px
 
 .img-item-2
@@ -432,6 +585,9 @@ section
   height 98px
   margin 15px 0 61px 66px
 
+  +x960()
+    margin 7px 0 42px 206px
+
 .img-item-3
   background-image url("../assets/diamond.png")
   background-size contain
@@ -440,6 +596,9 @@ section
   height 75px
   margin 58px 0 41px 55px
 
+  +x960()
+    margin 8px 0 52px 203px
+
 .img-item-4
   background-image url("../assets/Car-1.png")
   background-size contain
@@ -447,6 +606,9 @@ section
   width 102px
   height 102px
   margin 18px 0 74px 91px
+
+  +x960()
+    margin 1px 0 50px 209px
 
 .p2-advantage
   font-style normal
@@ -458,6 +620,10 @@ section
 
 .statistic
   width 100%
+
+  +x960()
+    display flex
+    justify-content center
 
 //margin 0 auto
 
@@ -472,11 +638,25 @@ section
   height 622px
   margin 67px 0 0
 
+  +x960()
+    display flex
+    justify-content center
+    background url("../assets/Group-960.svg")
+    //background-size cover
+    background-repeat no-repeat
+    //background-position center top
+    width 960px
+    height 660px
+    margin 50px 0 0
+
 .statistic-text
   color #FAFAFA
 
 .statistic-circle-text
   color #FFFFFF
+
+  +x960()
+    margin 0 0 0 46px
 
 .green-graph-text
   color #50CE61
@@ -484,14 +664,21 @@ section
 .statistic-text-h1
   margin 21px 0 0
 
+  +x960()
+    width 600px
+    margin 11px 0 0 2px
+
 .statistic-text-p
   font-style normal
   font-weight 500
   font-size 23px
   line-height 32px
   letter-spacing -0.5px
-  margin 40px 0
+  margin 40px 0 0
   width 420px
+
+  +x960()
+    margin 31px 0 0 2px
 
 .circle-percent
   font-style normal
@@ -499,7 +686,11 @@ section
   font-size 106px
   line-height 130%
   letter-spacing -0.04em
-  margin 117px 48px 0 0
+  margin 133px 48px 0 0
+
+  +x960()
+    font-size 83px
+    margin 77px 42px 0 0
 
 .circle-description
   font-style normal
@@ -509,7 +700,10 @@ section
   text-align center
   letter-spacing -0.02em
   text-transform uppercase
-  margin -15px 42px 39px 0
+  margin -17px 42px 39px 0
+
+  +x960()
+    margin -1px 37px 0 0
 
 .statistic-graph-text
   color #FAFAFA
@@ -519,7 +713,10 @@ section
   line-height 130%
   letter-spacing -0.02em
   text-transform uppercase
-  padding 120px 0 0 20px
+  padding 136px 0 0 20px
+
+  +x960()
+    padding 160px 0 0 22px
 
 .graph-text-p1
   margin 0 110px 0 0
@@ -533,6 +730,7 @@ section
 .seller
   display flex
   justify-content center
+  height 500px
 
 .seller-background
   display flex
@@ -543,13 +741,22 @@ section
   background-position top 17px right 23px
   height 483px
   width 100%
-  //margin 67px 0 0
+
+  +x960()
+    background url("../assets/heart-960.png")
+    background-repeat no-repeat
+    background-position top 10px right 1px
+
+//margin 67px 0 0
 
 //.seller-container
 //  //overflow hidden
 
 .h1-seller
-  margin 102px 0 0
+  margin 32px 0 0
+
+  +x960()
+    margin 11px 0 0 2px
 
 .p-seller
   color #FAFAFA
@@ -561,9 +768,17 @@ section
   width 740px
   margin 32px 0 33px
 
+  +x960()
+    font-size 23px
+    line-height 32px
+    letter-spacing -0.5px
+    width 460px
+    margin 31px 0 33px 2px
+
 .group-seller
   display flex
-  //margin 0 0 10px
+
+//margin 0 0 10px
 
 .group-seller-item
   border 1px solid #323131
@@ -633,6 +848,9 @@ section
   margin 41px 0 0
   width 400px
 
+  +x960()
+    margin 38px 0 0 2px
+
 
 .be-seller
   background-color #DE2323
@@ -671,7 +889,7 @@ section
   border 1px solid #50CE61
   transition all .4s
   box-shadow 0 0.5em 0.5em -0.4em #50CE61
-  transform translateY(t-0.65em)
+  transform translateY(t-0 .65em)
 
 .info-seller:active
   background-color rgba(80, 206, 97, 0.6)
@@ -682,11 +900,146 @@ section
   transition all .4s
   box-shadow 0 0.5em 0.5em -0.4em #DE2323
   //background-color #111111
-  transform translateY(t-0.65em)
+  transform translateY(t-0 .65em)
 
 .be-seller:active
   background-color rgba(222, 35, 35, 0.6)
   transition all .4s
+
+.faq
+  display flex
+  justify-content center
+
+.h1-faq
+  margin 180px 0 12px -1px
+
+  +x960()
+    margin 101px 0 12px
+    width 520px
+    font-style normal
+    font-weight bold
+    font-size 57px
+    line-height 73px
+    letter-spacing -1.75px
+    color #FFFFFF
+
+
+.accord-faq
+  width 1126px
+  //padding 60px 0 0
+  margin 40px 0 266px
+
+  +x960()
+    width 896px
+
+.el-collapse
+  border-top 1px solid rgba(255, 255, 255, 0.15)
+
+.el-collapse-item__header
+  color #ffffff
+  background-color #111111
+  border-bottom 1px solid rgba(255, 255, 255, 0.15)
+  font-family Inter
+  font-style normal
+  font-weight 500
+  font-size 23px
+  line-height 32px
+  letter-spacing -0.5px
+  padding-top 25px
+  padding-bottom 22px
+  height 100%
+
+.el-collapse-item__content
+  color rgba(219, 217, 217, 0.8)
+  background-color #111111
+  font-family Inter
+  font-style normal
+  font-weight normal
+  font-size 15px
+  line-height 24px
+  letter-spacing -0.5px
+
+.el-collapse-item__arrow
+  margin: 4.5px 8px auto auto
+
+.el-collapse-item__wrap
+  border-bottom 1px solid #323131
+  background-color #323131
+
+.footer
+  display flex
+  justify-content center
+  border-top 1px solid #323131
+  margin 0 0 40px 0
+
+.footer a
+  text-decoration none
+  color #FAFAFA
+
+.footer-container
+  width 1128px
+
+.footer-logo
+  background-image url("../assets/Business.svg")
+  background-size contain
+  background-repeat no-repeat
+  width 140px
+  height 21px
+  margin 36px auto 0
+
+.footer-navigation
+  display flex
+  margin 33px auto 0
+  padding 0 0 0 85px
+  //justify-content space-between
+  width 900px
+
+.footer-navigation-list
+  display flex
+  justify-content space-between
+  list-style-type none
+  //margin 0 18px 0 0;
+  font-style normal
+  font-weight normal
+  font-size 15px
+  line-height 20px
+  letter-spacing -0.5px
+
+.footer-navigation-list li
+  padding-right 24px
+
+.footer-text
+  width 500px
+  margin 43px auto 0
+  font-style normal
+  font-weight 500
+  font-size 23px
+  line-height 32px
+  text-align center
+  letter-spacing -0.5px
+  color #FAFAFA
+
+.footer-links
+  display flex
+  justify-content space-between
+  margin 56px auto 0
+
+.footer-links p
+  text-transform uppercase
+  font-style normal
+  font-weight 600
+  font-size 13px
+  line-height 17px
+  letter-spacing -0.02em
+
+.footer-links span
+  font-style normal
+  font-weight normal
+  font-size 12px
+  line-height 17px
+  letter-spacing -0.25px
+  color rgba(173, 172, 172, 0.5)
+
 
 /* || [END] || end code || - || NOTE || */
 
