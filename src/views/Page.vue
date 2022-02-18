@@ -137,18 +137,6 @@
                   Красивые и уютные пункты выдачи заказов продуманы до мелочей и оставляют позитивные впечатления о
                   маркетплейсе. С ними вы можете быть спокойны за сохранение лояльности постоянных покупателей.
                 </p>
-                <!--                <p class="p2-advantage">-->
-                <!--                  Красивые и уютные пункты выдачи заказов продуманы до мелочей и оставляют позитивные впечатления-->
-                <!--                </p>-->
-                <!--                <p class="p2-advantage">-->
-                <!--                  о маркетплейсе. С ними-->
-                <!--                </p>-->
-                <!--                <p class="p2-advantage">-->
-                <!--                  вы можете быть спокойны-->
-                <!--                </p>-->
-                <!--                <p class="p2-advantage">-->
-                <!--                  за сохранение лояльности постоянных покупателей.-->
-                <!--                </p>-->
               </div>
 
               <div class="group-advantage-item">
@@ -162,21 +150,6 @@
                   Эффективно выстроили все процессы, связанные с логистикой. Поэтому доставляем заказы за один день в
                   любой пункт выдачи KazanExpress или прямо до двери.
                 </p>
-                <!--                <p class="p2-advantage">-->
-                <!--                  Эффективно выстроили-->
-                <!--                </p>-->
-                <!--                <p class="p2-advantage">-->
-                <!--                  все процессы, связанные-->
-                <!--                </p>-->
-                <!--                <p class="p2-advantage">-->
-                <!--                  с логистикой. Поэтому-->
-                <!--                </p>-->
-                <!--                <p class="p2-advantage">-->
-                <!--                  доставляем заказы за один день в любой пункт выдачи KazanExpress или прямо-->
-                <!--                </p>-->
-                <!--                <p class="p2-advantage">-->
-                <!--                  до двери.-->
-                <!--                </p>-->
               </div>
             </div>
           </div>
@@ -275,12 +248,8 @@
                 </div>
               </div>
               <div class="seller-btn">
-                <!--                <p>-->
                 <button class="be-seller">Стать продавцом</button>
-                <!--                </p>-->
-                <!--                <p>-->
                 <button class="info-seller">Узнать больше</button>
-                <!--                </p>-->
               </div>
             </div>
           </div>
@@ -370,7 +339,6 @@
     <!-- || [footer] || footer section || - || NOTE || -->
     <footer>
       <div class="footer">
-        <!--        <div class="container">-->
         <div class="footer-container">
           <div class="footer-logo-container">
             <div class="footer-logo"></div>
@@ -416,53 +384,8 @@
             </p>
           </div>
         </div>
-        <!--        </div>-->
       </div>
     </footer>
-
-    <!--    <div class="block-header">-->
-    <!--      <div class="logo-bh">-->
-    <!--        <img class="business" src="../assets/Business.png" alt="Logo" />-->
-    <!--      </div>-->
-    <!--    </div>-->
-
-    <!--    <div class="block-1">-->
-    <!--      <div class="text-b1">-->
-    <!--        <p>-->
-    <!--          Почему KazanExpress —<br>-->
-    <!--          лучший маркетплейс для бизнеса-->
-    <!--        </p>-->
-    <!--      </div>-->
-    <!--    </div>-->
-
-    <!--    <div class="block-2">-->
-    <!--      <div class="card-b2">-->
-    <!--        <p>Hi</p>-->
-    <!--      </div>-->
-
-    <!--      <div class="card-b2">-->
-    <!--        <p>Hi</p>-->
-    <!--      </div>-->
-
-    <!--      <div class="card-b2">-->
-    <!--        <p>Hi</p>-->
-    <!--      </div>-->
-
-    <!--      <div class="card-b2">-->
-    <!--        <p>Hi</p>-->
-    <!--      </div>-->
-    <!--    </div>-->
-
-    <!--    <article class="block-3">-->
-    <!--      <div class="img-b3">-->
-    <!--        &lt;!&ndash;      <div class="text-b3">&ndash;&gt;-->
-    <!--        &lt;!&ndash;        <p>&ndash;&gt;-->
-    <!--        &lt;!&ndash;          Самый быстрорастущий&ndash;&gt;-->
-    <!--        &lt;!&ndash;          маркетплейс в Европе&ndash;&gt;-->
-    <!--        &lt;!&ndash;        </p>&ndash;&gt;-->
-    <!--        &lt;!&ndash;      </div>&ndash;&gt;-->
-    <!--      </div>-->
-    <!--    </article>-->
   </div>
 </template>
 
@@ -520,7 +443,6 @@ html
 
 ::-webkit-scrollbar
   display none
-
 
 body
   font-family 'Inter', sans-serif
@@ -604,7 +526,7 @@ section
 .header-navigation
   display flex
   margin 2px auto 0
-  padding 0 0 0 85px
+  padding 0 0 0 166px
   //justify-content space-between
   width 680px
   transition .5s
@@ -615,14 +537,6 @@ section
     display none
   +x320()
     display none
-
-
-//+x640()
-//  justify-content center
-//  padding 7px 0 0 23px
-//+x320()
-//  justify-content center
-//  padding 7px 0 0 23px
 
 .header-navigation-list,
 .our-product
@@ -640,6 +554,8 @@ section
   display flex
   align-items center
   transition .5s
+  padding-right 16px
+  font-size 16px
 
   +x960()
     display none
@@ -657,15 +573,6 @@ section
 
 .all-products svg
   fill #FAFAFA
-
-//+x640()
-//  display block
-//  text-align center
-//  margin 0 auto
-//+x320()
-//  display block
-//  text-align center
-//  margin 0 auto
 
 .header-navigation-list li
   padding-right 24px
@@ -693,29 +600,14 @@ section
   color rgba(222, 35, 35, 0.9)
   opacity 0.9
 
-//.el-submenu__title
-//  background-color #111111
-//  color #111111
-//  border-right #111111
-
 .el-submenu__title i
   color #FAFAFA
 
 .el-menu
   border-right: solid 1px #111111;
 
-
-//+x640()
-//  padding-bottom 24px
-//+x320()
-//  padding-bottom 24px
-
-// *
 .container
   display flex
-  //align-items center
-  //width calc(60% - 30px)
-  //width calc(60.5% - 16px)
   width 1128px
   transition .5s
 
@@ -726,18 +618,10 @@ section
   +x320()
     width 288px
 
-//margin 0 8px
-//padding 8px
-//padding-left 8px
-
-//height 72px
-
 .logo
   background-image url("../assets/Business.svg")
   background-size contain
   background-repeat no-repeat
-  //width 132px
-  //height 18px
   width 140px
   height 21px
 
@@ -747,16 +631,12 @@ section
   justify-content center
   background-color #111111
 
-//width 1280px
-//margin 0 auto
-
 .group-advantage
   display flex
   justify-content space-between
   margin 64px 0 0
 
   +Several(x1280, x1920)
-    //flex-wrap nowrap
     flex-wrap wrap
   +x960()
     flex-wrap wrap
@@ -767,8 +647,6 @@ section
   +x320()
     flex-wrap wrap
     margin 31px 0 0
-
-//width 304px
 
 .advantage-container
   margin 128px 0 0
@@ -846,8 +724,6 @@ section
 .img-item
   display flex
 
-//height 194px
-
 .img-item-1
   background-image url("../assets/box-a.png")
   background-size contain
@@ -864,8 +740,6 @@ section
     margin -26px 0 43px 154px
   +x320()
     margin -26px 0 43px 155px
-
-//margin 26px 56px 74px 114px
 
 .img-item-2
   background-image url("../assets/cam-2.png")
@@ -937,26 +811,20 @@ section
     display flex
     justify-content center
 
-//margin 0 auto
-
 .statistic-background
   display flex
   justify-content center
-  //background url("../assets/Group-1920.svg") no-repeat center top
   background url("../assets/Group-1920.svg")
-  //background-size cover
   background-repeat no-repeat
   background-position center top
   height 622px
-  margin 67px 0 0
+  margin 43px 0 0
   transition .5s
 
   +x1280()
     display flex
     justify-content center
-    //background url("../assets/Group-1920.svg") no-repeat center top
     background url("../assets/Group-1920.svg")
-    //background-size cover
     background-repeat no-repeat
     background-position center top
     width 1280px
@@ -966,9 +834,7 @@ section
     display flex
     justify-content center
     background url("../assets/Group-960.svg")
-    //background-size cover
     background-repeat no-repeat
-    //background-position center top
     width 960px
     height 660px
     margin 50px 0 0
@@ -976,10 +842,9 @@ section
     display flex
     justify-content center
     background url("../assets/Group-640.svg")
-    //background-size cover
     background-repeat no-repeat
-    //background-position center top
-    background-position top 0px right 149px
+    //background-position top 0 right 129px
+    background-position center top
     width 959px
     height 819px
     margin -23px 0 0
@@ -987,7 +852,6 @@ section
     display flex
     justify-content center
     background url("../assets/Group-320.svg")
-    //background-size cover
     background-repeat no-repeat
     background-position center top
     width 959px
@@ -1135,7 +999,6 @@ section
 .seller-background
   display flex
   justify-content center
-  //background url("../assets/Group-1920.svg") no-repeat center top
   background url("../assets/heart-3.png")
   background-repeat no-repeat
   background-position top -15px right 23px
@@ -1150,11 +1013,6 @@ section
     background none
   +x320()
     background none
-
-//margin 67px 0 0
-
-//.seller-container
-//  //overflow hidden
 
 .h1-seller
   +x960()
@@ -1200,8 +1058,6 @@ section
     flex-wrap wrap
   +x320()
     flex-wrap wrap
-
-//margin 0 0 10px
 
 .group-seller-item
   border 1px solid #323131
@@ -1294,9 +1150,7 @@ section
 
 .be-seller
   background-color #DE2323
-  //background-color #111111
   border-radius 6px
-  //border none
   border 1px solid #DE2323
   font-style normal
   font-weight 500
@@ -1322,14 +1176,12 @@ section
   background-color #111111
   border-radius 6px
   border none
-  //border 1px solid #50CE61
   font-style normal
   font-weight 500
   font-size 15px
   line-height 20px
   letter-spacing 0.2px
   color #FAFAFA
-  //width 189px
   width 170px
   height 52px
   margin 0 0 0 16px
@@ -1356,7 +1208,6 @@ section
   border 1px solid #DE2323
   transition all .4s
   box-shadow 0 0.5em 0.5em -0.4em #DE2323
-  //background-color #111111
   transform translateY(t-0 .65em)
 
 .be-seller:active
@@ -1408,7 +1259,6 @@ section
 .accord-faq
   transition .5s
   width 1126px
-  //padding 60px 0 0
   margin 40px 0 0
 
   +x960()
@@ -1497,7 +1347,6 @@ section
   display flex
   margin 33px auto 0
   padding 0 0 0 85px
-  //justify-content space-between
   width 900px
 
   +x640()
@@ -1511,7 +1360,6 @@ section
   display flex
   justify-content space-between
   list-style-type none
-  //margin 0 18px 0 0;
   font-style normal
   font-weight normal
   font-size 15px
@@ -1610,191 +1458,8 @@ section
   +x320()
     width 250px
 
-//width 1280
-//text-align center
-
 
 /* || [END] || end code || - || NOTE || */
-
-//html, body
-//  width 100%
-//  height 100%
-//  margin-top 0
-//  margin-right 0
-//  margin-bottom 0
-//  margin-left 0
-//  overflow-x hidden
-//
-//body::-webkit-scrollbar
-//  width 0
-//
-//p
-//  margin 0
-//
-//
-//.root
-//  background-color #111111
-//  width 100%
-//  height 100%
-//
-//.block-header
-//  display flex
-//  max-width 1920px
-//  justify-content center
-//  align-items center
-//
-//.logo-bh
-//  background-color cornflowerblue
-//  margin 0 0 94px 0
-//  padding-top 27px
-//  padding-bottom 27px
-//
-//  +Several(x1280, x1440)
-//    width 1128px
-//
-//  +x960()
-//    width 928px
-//
-//  +x640()
-//    width 624px
-//
-//  +x320()
-//    width 304px
-//
-//.business
-//  width 132px
-//  height 18px
-//  vertical-align middle
-//
-//.block-1
-//  background-color blueviolet
-//
-//  display flex
-//  max-width 1920px
-//  justify-content center
-//  align-items center
-//
-//
-//  font-family Inter
-//  font-style normal
-//  font-weight bold
-//  color #FAFAFA
-//
-//
-//.text-b1
-//  background-color indigo
-//
-//  margin 0
-//  height 100%
-//
-//  +Several(x1280, x1440)
-//    font-size 57px
-//    line-height 73px
-//    letter-spacing -1.75px
-//    width 1128px
-//
-//  +x960()
-//    font-size 50px
-//    line-height 55px
-//    letter-spacing -1.5px
-//    width 928px
-//
-//  +x640()
-//    font-size 50px
-//    line-height 55px
-//    letter-spacing -1.5px
-//    width 624px
-//
-//  +x320()
-//    font-size 25px
-//    line-height 33px
-//    letter-spacing -1px
-//    width 304px
-//
-////flex-basis calc(100% - 888px)
-////min-width calc(100% - 320px)
-////min-width 936px
-////min-height 146px
-//
-//
-//.block-2
-//  background-color aquamarine
-//
-//  display flex
-//  flex-wrap wrap
-//  text-align left
-//  max-width 1920px
-//  justify-content center
-//  align-items center
-//  height 100%
-//
-//.card-b2
-//  border-radius 4px !important
-//  padding 16px
-//
-//  +Several(x1280, x1440)
-//    background-color red
-//
-//    margin 64px 12px
-//    flex-basis 232px
-//    min-width 232px
-//    min-height 368px
-//
-//  +x960()
-//    background-color green
-//
-//    margin 12px 12px
-//    flex-basis 420px
-//    min-width 420px
-//    min-height 266px
-//
-//
-//  +x640()
-//    background-color blue
-//
-//    margin 8px 8px
-//    flex-basis 272px
-//    min-width 272px
-//    min-height 306px
-//
-//  +x320()
-//    background-color yellow
-//
-//    margin 8px 16px
-//    flex-basis 272px
-//    min-width 272px
-//    min-height 306px
-//
-//img
-//  margin auto
-//
-//.block-3
-//  //background-color coral
-//  //background-image url(../assets/Group-1920.png)
-//  height 622px
-//  //width fit-content
-//  //block-size fit-content
-//
-//  display flex
-//  max-width 1920px
-//  justify-content center
-//  align-items center
-//
-////background-size cover
-//
-//.img-b3
-//  //background-color lightgreen
-//  background-image url(../assets/Group-1920.png)
-//  height 622px
-//  ////width fit-content
-//  ////block-size fit-content
-//  //
-//  display flex
-//  width 1920px
-//  //justify-content center
-//  //align-items center
-//  //
-//  background-size cover
 
 /* `                                 ;;.                    ;;.
                                     ,t;i,                 ,;;;:
