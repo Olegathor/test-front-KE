@@ -22,12 +22,12 @@
 
 <!-- || [SCRIPT] || script section || - || NOTE || -->
 <script>
-import HeaderPage from "@/views/HeaderPage";
-import Advantage from "@/views/Advantage";
-import Statistic from "@/views/Statistic";
-import Seller from "@/views/Seller";
-import Faq from "@/views/Faq";
-import FooterPage from "@/views/FooterPage";
+import HeaderPage from "@/components/HeaderPage";
+import Advantage from "@/components/Advantage";
+import Statistic from "@/components/Statistic";
+import Seller from "@/components/Seller";
+import Faq from "@/components/Faq";
+import FooterPage from "@/components/FooterPage";
 
 export default {
   name: 'Page',
