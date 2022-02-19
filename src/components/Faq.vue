@@ -7,72 +7,10 @@
 
       <div class="accord-faq">
         <el-collapse v-model="activeName" accordion>
-          <el-collapse-item name="1">
-            <template slot="title">
-              <div class="faq-header">
-                У меня нет опыта в продажах и в работе с маркетплейсом. Я могу стать продавцом?
-              </div>
-            </template>
-
-            <div>
-              Мы предлагаем брендам продавать свои товары на KazanExpress без лишних хлопот. Вы поставляете товары
-              нам, а взамен получаете новый рынок сбыта, прямой договор и стабильную прибыль.
-            </div>
-          </el-collapse-item>
-
-          <el-collapse-item name="2">
-            <template slot="title">
-              <div class="faq-header">
-                Я боюсь, что мои товары не будут продаваться
-              </div>
-            </template>
-
-            <div>
-              <q>
-                Иным людям богатство только и приносит, что страх потерять его.
-              </q>
-              <br><i>— Антуан де Ривароль, французский писатель</i>
-            </div>
-          </el-collapse-item>
-
-          <el-collapse-item name="3">
-            <template slot="title">
-              <div class="faq-header">
-                Как часто можно выводить средства и сколько взимается комиссия?
-              </div>
-            </template>
-
-            <div>
-              Чаще, чем вам хочется, меньше, чем вы думаете.
-            </div>
-          </el-collapse-item>
-
-          <el-collapse-item name="4">
-            <template slot="title">
-              <div class="faq-header">
-                Спустя 10 лет, кто убил Марка?
-              </div>
-            </template>
-
-            <div>
-              Это серкетная информация.
-            </div>
-          </el-collapse-item>
-
-          <el-collapse-item name="5">
-            <template slot="title">
-              <div class="faq-header">
-                А маркетплейс в один день не обанкротится? Какая вероятность, что это произойдет?
-              </div>
-            </template>
-
-            <div>
-              <q>
-                Только взаимный страх делает союз надежным.
-              </q>
-              <br><i>— Фукидид, древнегреческий историк</i>
-            </div>
-          </el-collapse-item>
+          <FaqItem v-for="faqData in faqItems"
+                   :nameItem="faqData.nameItem"
+                   :questionItem="faqData.questionItem"
+                   :answerItem="faqData.answerItem" />
         </el-collapse>
       </div>
     </div>
@@ -80,11 +18,45 @@
 </template>
 
 <script>
+import FaqItem from "@/components/FaqItem";
+
 export default {
   name: 'Faq',
+  components: {FaqItem},
   data() {
     return {
       activeName: '1',
+      faqItems: [
+        {
+          nameItem: "1",
+          questionItem: "У меня нет опыта в продажах и в работе с маркетплейсом. Я могу стать продавцом?",
+          answerItem: "Мы предлагаем брендам продавать свои товары на KazanExpress без лишних хлопот. Вы поставляете товары нам, а взамен получаете новый рынок сбыта, прямой договор и стабильную прибыль."
+        },
+
+        {
+          nameItem: "2",
+          questionItem: "Я боюсь, что мои товары не будут продаваться.",
+          answerItem: "Иным людям богатство только и приносит, что страх потерять его. — Антуан де Ривароль, французский писатель"
+        },
+
+        {
+          nameItem: "3",
+          questionItem: "Как часто можно выводить средства и сколько взимается комиссия?",
+          answerItem: "Чаще, чем вам хочется, меньше, чем вы думаете."
+        },
+
+        {
+          nameItem: "4",
+          questionItem: "Спустя 10 лет, кто убил Марка?",
+          answerItem: "Это серкетная информация."
+        },
+
+        {
+          nameItem: "5",
+          questionItem: "А маркетплейс в один день не обанкротится? Какая вероятность, что это произойдет?",
+          answerItem: "Только взаимный страх делает союз надежным. — Фукидид, древнегреческий историк"
+        },
+      ]
     };
   }
 };
@@ -147,10 +119,6 @@ export default {
   +x320()
     margin 31px 0 0
     width 288px
-
-.faq-header
-  +x320()
-    padding 0 40px 0 0
 
 .el-collapse
   border-top 1px solid rgba(255, 255, 255, 0.15)

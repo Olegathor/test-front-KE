@@ -7,26 +7,9 @@
       <div class="footer-navigation">
         <nav>
           <ul class="footer-navigation-list">
-            <li>
-              <a href="https://business.kazanexpress.ru/seller/signup">
-                Стать продавцом
-              </a>
-            </li>
-            <li>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLScMT2Q_kGex9HG7hNIte9-cB4Kkxe9nMM5dP4wa5-sVR7ap9Q/viewform">
-                Предложить свои услуги
-              </a>
-            </li>
-            <li>
-              <a href="https://pvz.kazanexpress.ru/">
-                Открыть пункт выдачи заказов
-              </a>
-            </li>
-            <li>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1M37zsrMs3DiGYF8KD2juVHIUjl0f6Srxf716izYWEmqmaw/viewform">
-                Стать поставщиком товаров
-              </a>
-            </li>
+            <NavigationFooter v-for="footerMenuData in navigationMenuFooter"
+                              :hrefLink="footerMenuData.hrefLink"
+                              :menuItem="footerMenuData.menuItem" />
           </ul>
         </nav>
       </div>
@@ -57,8 +40,36 @@
 </template>
 
 <script>
+import NavigationFooter from "@/components/NavigationFooter";
+
 export default {
-  name: 'FooterPage'
+  name: 'FooterPage',
+  components: {NavigationFooter},
+  data() {
+    return {
+      navigationMenuFooter: [
+        {
+          hrefLink: "https://business.kazanexpress.ru/seller/signup",
+          menuItem: "Стать продавцом"
+        },
+
+        {
+          hrefLink: "https://docs.google.com/forms/d/e/1FAIpQLScMT2Q_kGex9HG7hNIte9-cB4Kkxe9nMM5dP4wa5-sVR7ap9Q/viewform",
+          menuItem: "Предложить свои услуги"
+        },
+
+        {
+          hrefLink: "https://pvz.kazanexpress.ru/",
+          menuItem: "Открыть пункт выдачи заказов"
+        },
+
+        {
+          hrefLink: "https://docs.google.com/forms/d/e/1FAIpQLSe1M37zsrMs3DiGYF8KD2juVHIUjl0f6Srxf716izYWEmqmaw/viewform",
+          menuItem: "Стать поставщиком товаров"
+        },
+      ],
+    };
+  }
 };
 </script>
 
@@ -131,14 +142,6 @@ export default {
     display block
     text-align center
     margin 0 auto
-
-.footer-navigation-list li
-  padding-right 24px
-
-  +x640()
-    padding-bottom 24px
-  +x320()
-    padding-bottom 24px
 
 .footer-text
   width 500px

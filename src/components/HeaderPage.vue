@@ -4,21 +4,10 @@
       <div class="logo"></div>
       <div class="header-navigation">
         <ul class="header-navigation-list">
-          <li>
-            <a href="#advantages">Преимущества</a>
-          </li>
 
-          <li>
-            <a href="#indicators">Показатели</a>
-          </li>
-
-          <li>
-            <a href="#be-a-seller">Партнерство</a>
-          </li>
-
-          <li>
-            <a href="#questions">Вопросы</a>
-          </li>
+          <NavigationMenu v-for="menuData in navigationMenu"
+                          :hrefLink="menuData.hrefLink"
+                          :menuItem="menuData.menuItem" />
         </ul>
       </div>
 
@@ -52,38 +41,11 @@
           </template>
           <el-menu-item-group>
             <span slot="title">Меню</span>
-            <el-menu-item class="el-menu-item-link" index="1-1">
-              <el-link :underline="false"
-                       href="#advantages"
-                       text-color="#FAFAFA"
-                       active-text-color="#FAFAFA">
-                Преимущества
-              </el-link>
-            </el-menu-item>
-            <el-menu-item class="el-menu-item-link" index="1-2">
-              <el-link :underline="false"
-                       href="#indicators">
-                Показатели
-              </el-link>
-            </el-menu-item>
-            <el-menu-item class="el-menu-item-link" index="1-3">
-              <el-link :underline="false"
-                       href="#be-a-seller">
-                Партнерство
-              </el-link>
-            </el-menu-item>
-            <el-menu-item class="el-menu-item-link" index="1-4">
-              <el-link :underline="false"
-                       href="#questions">
-                Вопросы
-              </el-link>
-            </el-menu-item>
-            <el-menu-item class="el-menu-item-link" index="1-5">
-              <el-link :underline="false"
-                       href="https://kazanexpress.ru/">
-                Наши продукты
-              </el-link>
-            </el-menu-item>
+
+            <NavigationBurger v-for="burgerData in navigationBurger"
+                              :indexBurger="burgerData.indexBurger"
+                              :hrefLink="burgerData.hrefLink"
+                              :menuItem="burgerData.menuItem" />
           </el-menu-item-group>
         </el-submenu>
       </el-menu>
@@ -92,11 +54,67 @@
 </template>
 
 <script>
+import NavigationMenu from "@/components/NavigationMenu";
+import NavigationBurger from "@/components/NavigationBurger";
+
 export default {
   name: 'HeaderPage',
+  components: {NavigationBurger, NavigationMenu},
   data() {
     return {
-      isCollapse: true
+      isCollapse: true,
+      navigationMenu: [
+        {
+          hrefLink: "#advantages",
+          menuItem: "Преимущества"
+        },
+
+        {
+          hrefLink: "#indicators",
+          menuItem: "Показатели"
+        },
+
+        {
+          hrefLink: "#be-a-seller",
+          menuItem: "Партнерство"
+        },
+
+        {
+          hrefLink: "#questions",
+          menuItem: "Вопросы"
+        },
+      ],
+      navigationBurger: [
+        {
+          indexBurger: "1-1",
+          hrefLink: "#advantages",
+          menuItem: "Преимущества"
+        },
+
+        {
+          indexBurger: "1-2",
+          hrefLink: "#indicators",
+          menuItem: "Показатели"
+        },
+
+        {
+          indexBurger: "1-3",
+          hrefLink: "#be-a-seller",
+          menuItem: "Партнерство"
+        },
+
+        {
+          indexBurger: "1-4",
+          hrefLink: "#questions",
+          menuItem: "Вопросы"
+        },
+
+        {
+          indexBurger: "1-5",
+          hrefLink: "https://kazanexpress.ru/",
+          menuItem: "Наши продукты"
+        },
+      ]
     };
   },
 
@@ -193,9 +211,6 @@ export default {
 .all-products svg
   fill #FAFAFA
 
-.header-navigation-list li
-  padding-right 24px
-
 .el-menu-vertical-demo:not(.el-menu--collapse)
   width 200px
   min-height 400px
@@ -208,9 +223,6 @@ export default {
     display none
   +x1280()
     display none
-
-.el-menu-item-link
-  text-decoration none
 
 .el-link--inner
   color #FAFAFA
