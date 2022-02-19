@@ -1,0 +1,66 @@
+breakpoint(width)
+  @media only screen and (min-width: width)
+    {block}
+
+media(min = 0, max = 0)
+  if max
+    if min
+      @media (min-width: min) and (max-width: max - unit(1, unit(max)))
+        {block}
+    else
+      @media (max-width: max - unit(1, unit(max)))
+        {block}
+  else if min
+    @media (min-width: min)
+      {block}
+  else
+    {block}
+
+Mobile()
+  +media(0, 640px)
+    {block}
+
+Tablet()
+  +media(640px, 960px)
+    {block}
+
+Laptop()
+  +media(960px, 1280px)
+    {block}
+
+Desktop()
+  +media(1280px, 1920px)
+    {block}
+
+DesktopMax()
+  +media(1920px)
+    {block}
+
+x320()
+  +media(0, 640px)
+    {block}
+
+x640()
+  +media(640px, 960px)
+    {block}
+
+x960()
+  +media(960px, 1280px)
+    {block}
+
+x1280()
+  +media(1280px, 1920px)
+    {block}
+
+x1440()
+  +media(1440px)
+    {block}
+
+x1920()
+  +media(1920px)
+    {block}
+
+Several(args...)
+  for mediaType in args
+    +mediaType()
+      {block}
