@@ -18,30 +18,6 @@
                         :description2="cardData.description2"
                         :description3="cardData.description3"
                         :number="cardData.number" />
-
-            <!--                <div class="group-seller-item">-->
-            <!--                  <div class="seller-item-img-2"></div>-->
-            <!--                  <p class="seller-item-description">Бесплатно сделаем <br>фотографии <br>товаров</p>-->
-            <!--                  <p class="seller-item-number">02</p>-->
-            <!--                </div>-->
-
-            <!--                <div class="group-seller-item">-->
-            <!--                  <div class="seller-item-img-3"></div>-->
-            <!--                  <p class="seller-item-description">Дадим <br>нужные знания <br>для развития</p>-->
-            <!--                  <p class="seller-item-number">03</p>-->
-            <!--                </div>-->
-
-            <!--                <div class="group-seller-item">-->
-            <!--                  <div class="seller-item-img-4"></div>-->
-            <!--                  <p class="seller-item-description">Поможем <br>отправить <br>товары на склад</p>-->
-            <!--                  <p class="seller-item-number">04</p>-->
-            <!--                </div>-->
-
-            <!--                <div class="group-seller-item">-->
-            <!--                  <div class="seller-item-img-5"></div>-->
-            <!--                  <p class="seller-item-description">Поможем <br>подготовить <br>товары к продаже</p>-->
-            <!--                  <p class="seller-item-number">05</p>-->
-            <!--                </div>-->
           </div>
           <div class="seller-btn">
             <a href="https://business.kazanexpress.ru/seller/signup">
@@ -112,140 +88,12 @@ export default {
       ]
     };
   }
-  // props: {
-  //   sellers: {}
-  // }
 };
 </script>
 
 <style lang="stylus">
 @import "../utils/utils.styl"
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-//*
-//  box-sizing border-box
-//  padding 0
-//  margin 0
-//
-//html
-//  scroll-behavior smooth
-//  overflow-x hidden
-//
-//::-webkit-scrollbar
-//  display none
-//
-//body
-//  font-family 'Inter', sans-serif
-//  background-color #111111
-//
-//h1
-//  font-style normal
-//  font-weight bold
-//  font-size 57px
-//  line-height 73px
-//  letter-spacing -1.75px
-//  color #fafafa
-//
-//  //+Several(x1280, x1920)
-//  //  color #ffb300
-//
-//
-//  +x960()
-//    //color #e00f0f
-//    font-size 50px
-//    line-height 55px
-//    letter-spacing -1.5px
-//
-//  +x640()
-//    //color #1ed760
-//    font-size 50px
-//    line-height 55px
-//    letter-spacing -1.5px
-//
-//  +x320()
-//    //color #b565ff
-//    font-size 25px
-//    line-height 33px
-//    letter-spacing -1px
-//
-//section
-//  width 1280px
-//  margin 0 auto
-//  transition .5s
-//
-//  +x960()
-//    width 960px
-//  +x640()
-//    width 640px
-//  +x320()
-//    width 320px
-
-/* || [header] || header section || - || NOTE || */
-//padding-left 16px
-
-//.header a
-//  text-decoration none
-//  color #FAFAFA
-//
-//.header a:hover
-//  color rgba(222, 35, 35, 0.9)
-//
-//.all-products svg
-//  fill #FAFAFA
-//
-//.header-navigation-list li
-//  padding-right 24px
-//
-//.el-submenu__title i
-//  color #FAFAFA
-//
-//.container
-//  display flex
-//  width 1128px
-//  transition .5s
-//
-//  +x960()
-//    width 900px
-//  +x640()
-//    width 592px
-//  +x320()
-//    width 288px
-
-/* || [advantage] || advantage section || - || NOTE || */
-//.group-advantage-item
-//  background-color #1C1C1C
-//  color #DBD9D9
-//  margin 0 24px 24px 0
-//  width 264px
-//  padding 16px
-//  border-radius 6px
-//  transition .5s
-//
-//  +x960()
-//    height 266px
-//    width 436px
-//    margin 0 2px 24px 2px
-//    padding-left 18px
-//    padding-bottom 23px
-//  +x640()
-//    height 306px
-//    width 286px
-//    margin 0 2px 16px 2px
-//    padding-left 14px
-//    padding-bottom 23px
-//  +x320()
-//    height 306px
-//    width 288px
-//    margin 0 0 16px 0
-//    padding-left 15px
-//    padding-bottom 23px
-//
-//
-//.group-advantage-item:last-child
-//  margin 0 0 24px 0
-//
-//  +x320()
-//    margin 16px 0 0
 
 /* || [seller] || seller section || - || NOTE || */
 .seller
@@ -328,7 +176,6 @@ export default {
 .seller-btn
   margin 41px 0 0
   width 400px
-  //display flex
 
   +x960()
     margin 38px 0 0 2px
@@ -399,99 +246,118 @@ export default {
   transition all .4s
   box-shadow 0 0.5em 0.5em -0.4em #DE2323
   transform translateY(t-0 .65em)
+  background-color rgba(222, 35, 35, 0.8)
 
 .be-seller:active
   background-color rgba(222, 35, 35, 0.6)
   transition all .4s
 
-/* || [faq] || faq section || - || NOTE || */
-/* || [footer] || footer section || - || NOTE || */
-//.footer a
-//  text-decoration none
-//  color #FAFAFA
-//
-//.footer a:hover
-//  color rgba(222, 35, 35, 0.9)
-//
-//.footer-navigation-list li
-//  padding-right 24px
-//
-//  +x640()
-//    padding-bottom 24px
-//  +x320()
-//    padding-bottom 24px
-//
-//.footer-links p
-//  text-transform uppercase
-//  font-style normal
-//  font-weight 600
-//  font-size 13px
-//  line-height 17px
-//  letter-spacing -0.02em
-//  color #FAFAFA
-//
-//  +x960()
-//    margin -8px 0 24px
-//  +x640()
-//    margin -8px 0 24px
-//  +x320()
-//    margin -8px 0 24px
-//
-//.rights p
-//  font-style normal
-//  font-weight normal
-//  font-size 12px
-//  line-height 17px
-//  letter-spacing -0.25px
-//  color rgba(173, 172, 172, 0.5)
-//
-//  +x320()
-//    width 250px
-
-
 /* || [END] || end code || - || NOTE || */
 
-/* `                                 ;;.                    ;;.
-                                    ,t;i,                 ,;;;:
-                                    :t::i,              ,;i;:,:,
-                                    11;:;i;.          .;i;:::,,:
-                                   ,1;i11i11iii;;;;::;;:,:,..,,:.
-                                 .:1ttt11i;iii1111ii;:.,:,. .,::.
-                             ,i1tfftfffti;;ii;iiiiiii;:,,.  ,:;,
-                            ;Lfffttttft1;;;i111i;;iii11i:..,:,;;
-                           .fLLLt:,,;t1i;;1tttt1ii;iii1111i;:,:1;
-                           1C00Ci. .i1t111ii;;:,:;;iii11111i;,,it.
-                          ,C00Ct1i1tttftti:. :.  ,ii11111111i;:;1,
-                          t0GGGfffftffftt1i;::,:i1tfffttttt11iii1;
-                         ,CCGC;,...,;fLftt1tt11111tfLLftffftt11i11.
-                         iGLGt       tLfftttfffLffffffLfffttt1ii11i
-                         iGLf;.    .:i1tt11ffffffLfffftt1111ii;iiit;
-                         1GLt:..  ..:iii1111ttttt1ttt1111111i;;i;i1t
-                         ;GLLt,     .,::::,:i11111t11ttfttt1i;;;;iit:
-                         .LCLft;.........,:i1111ttttttttt11i;;;;;;i1i
-                          ,LLfff1iiiiiiii111111111tttt11iii;;;;::;;it;
-                           tfffftttt1111iiiiii1ttttt111iii;;;:::;;;iti
-                          :Ltttttt1111iiiiiii1tttt111111iii;:::;iii1t1
-                          ;Lftt11111111iiiiiiii;iii11111ii;;;ii111t1f1
-                          tLffftt1ii;ii;;;;;;;;ii11111111ii1tttttttttf
-                          fCLfftt11ii;;;;;;ii11t11111tttttffffffftttt1
-                         ,LCLLfft111iiiiiii11t111ttt11tttffttfffftt11:
-                      .:1fLLLffttt11iiiiii111111111ttft1tffffffftt1ii;
-                    ,1fLLCLLffttt111iiiii11111111t1tttfftfffffftt1i;;i
-                 .:tffLCCCCLfftt1111i1i1111111t1t1111ttffffttt11ii;;;i
-                ,fLffLGGCGCLfftt111ii11111t1tttttttt11tfffftt111i;;;;1
-               :fftfCGGLCCLLftt111ii1ii1111111tt11tttt1tttttttttti;;;t.
-               :11tLGGLfffffttt1111iiiiiiii11111111i1111tttttffft1;;;1.
-           .,;i111tCCLfftt11t11111i1ii1iiiiiii1i1ii11111ttttttfft1;:;:
-         ,:;iiiii1tLLfttftt1iiiiiiiiiiiiiiiii1iii11111i111ttttttti;;;,
-         ;;:;;;::1ffffffLLfftt111111iii1iiiii1ii111111ii11ttttttti;;i,
-         .:::::iLGftffLLLLLLfttttttt1iii11tttttt11iiiii111ttttttti;;;
-           ...;1tt1tfLLLLLLLfftt11t1ttfLCCLLLftt111iiii1111tttttt1ii.
-                   1CLLLLLLLfftttffLGGGGCLLCLft1t11iii111t111ttttt1,
-                   ,ttfffLLLLLfffLLGGLCCff11fttt11iiii11111111tt1t,
-                       ..:;itf1tfffttt;1ti;::11i;;;iiiii111111111i
-                             ..:1t1;::...:;, :1tfi,;ii;ii1111ii;i.
-                                 ..,;;:.....;11tLL;:,:::;;;iiii;:
-                                     ,;... .:,:i;1i,         ...
-                                              ....,` */
+/* `American Chopper Argument': `
+                                    ....
+                                  .:1t11i;:,
+                                 :11tfffLCLf;
+                                ;fttffffLLfft.
+;.                              ,tt1t11ii11i1,
+11;;i;:,.....                   .ii1111111ttfi
+i1ttfLLLLLffftt1:,..    ..:;::,,,:i1111tt11tft:..
+.,:;i1tttffffffLCCCfttt1tf1:,,,,...:;ii1tiii1t:.,,,.
+    .,:;i111ttfLLLLffffft1,...... ..::iii;;;ii...,,::,
+        .,,::;;iii;;;i;;i:....  .....:;:,,........,,,:,.
+                ...,,,,,,..............      ......,i1i:
+                        ............ .    ........,i11i;
+                          ...... ..,,,,....... ..:i1ii;;
+                           .......,,,:,...... .;i11ii;i;
+                            .......,,,...    .i1111111i:
+                ..           ...            .it111111i;.
+                it1;,.        ,.            ,tt11iiii;,
+                .;tffft1i;:,,,,..           ;ttt1ii;:,
+                  .:ifLLLLLLL1,..      ..,:;1fLft1;,.
+                     ,;tfLLLLft1i;::;ii1tfLLLfft1;,
+                       .itfLLfLftt11111111111ii;;,
+                         .:;;;;::,,,,,,,,,,,,,,,.
+                                          .,,,:::,,.
+                                        ,it1:::::::::.
+                                      .:i11;;::,,,,,,:,
+                                ..,,:::::::,,,,....,,,:.
+                                ,,:;;:::::,,,.........,.
+                                   ..:::,,,,,:::,.....,.
+                                    ,i;;;;;i1tt1:::;;,,
+                                    :;;;1tffftt;:11ii:,,,....
+                                  ..,;;;i111111;;1t1i:..,,,,,,,,..
+                              .,,::,,i1i;iiiiii;;;;iii,.....,,,,:::,.
+                            .,,,,,,.:t11i;;;;::::;ii1i..........,,,,:,.
+                          .,,,......,;i;:,,,,,::;;;i;..............,,,,,.
+                        .,,,,...      .    .,,::;;:,...................,,,
+             .         .,,,,...              .,,,........................,.
+         .;iit1:,     ,:,,,,...                .  .... .....................
+        .1LGCGCft;,,;i;,,,,....             ....   .   .........    ..  ......
+       .1LLCLGLfLffffLLt;,...     ..          ....      ....             ..  ..
+       ifffttLftt1tt1ttff1:.  ....  ..       ,:;:,..    ..                   ...
+       :i11iiiii;;11ttft1i;:..       ..      .::,.::.                          .
+       .,:::::::;;i1t11fi:,.          ..
+            .,,,,::;;;1f:              ...........  .. ..........  ..   ........
+                      .
+                               .,:ii111;
+                             .:11ttttfff;
+                           .:1t11tffLCCCLi
+                           ;fftttttfLLCCCL;
+                           ;tttt1ttttt11t11,
+                           :1111111iii11tfti
+                           :1ii11111tff111ff:
+                          .:;;i111111ii1111fi
+                    ...,,,,..,;;;;;;ii1;:;;1i,..
+                 .,::,,....  .:i;::;111;;i1ti,,,,.
+              ..:::,,.....    .,:::iiii;;;ii:...,,
+            ..,::,,.......      ..,,,,...........,.
+            ..i1i;,.......             ..........,:
+           .,i1111:.......            ...........:;
+           .i1iiiii:.....           ........... ,i:
+           ,tii;;;;;,          ..,,,::,,.......,i1i
+          .11i;;;;;;:.        ..,,,:,,,,,.... .;;i1,
+         .i1iii;;;;;;,       ....,::,...... ..:;;i1:
+         :11iiiiiiii;:       .........      .:;;iii;
+         ;1iiiiiiii;:.      ........... ..  .::;;i11,
+         .,,,,,,,,,,.. ..   ......................,,.
+           .;;i1;.
+           ;t111t;                     ..,:;,
+           :i111ti                     ,::i,.......       .....
+        ....,:ii;:.                    .,,:.    .........,:::::,.
+      ,i1i;::::,,,,                      ......      ...,,,,,.,,,.
+     :i11iiiiiiii;i.                           ..    .,,,,...  .,,
+    ,1iii,..,,::::;.                            .     ,:,,,,....,.
+   ,1111:     .. .i:                            ..    ::,.,,,,..,..
+   1tti:        .;t1.                           ..    :,,....  ...,,
+  .i1tt1:.      :CG0;                           ..    ...        ..,
+    ,ii1t1;.    ,L@G;                 .,,,,..    .    .   .....   ..
+     :::;itf1:,,;fC:                  :;ii11i;;;:;:,:::::::........
+     .;:::itt1:,:;i,                  ,;i11111iiiiii11ttttti,......
+     ,;:::,;;;,.,,:i,                  ,,::;::::::::;;;;;;;;:.  ...
+     ,::,,....  ...,.                          .,,,,..,,,,.      ..
+                                                  .:.           ..
+                                                  .:.   ...,,,,,,.
+                                                  .,.....,,,:,,,,
+                             ,,,.
+                          .:;iii;;,
+                        .:ii;ii11t1;,
+                       ,iiiii11ttttt1;.
+                      .i111ii11111ii1;:
+                      .;iiiii111iii111i:
+                       ,i;;;iii111tt1ii1:
+                       .;;iiiii1111111iii.
+                       .:,:;;;;;ii111i,:i,          ..,,:,
+                      ..:,,:::::;i111i;;i,     :i111111i:,
+                   .,:,,...,;;;::;ii1ii;i.   .iffttt111i
+                  ,:,........,:::;;;:::..  .,i111ti;;;;:
+                .,,...,,,,,..........,. .,;ttii;:::;i;,
+               .,..,:;iii1i;:...    .,:;1tfft1;;::::,.
+              .,..,;ii111111i,....,:i1ttffft1;,.
+              ,...,;;ii111iii,,:i1tffffttt1;,.
+             .:...:;;ii1tt1111tffffffft11;:.
+             ,,...:;iii1ttttttffffttt1i;:.
+            .:,...:;iii1ttttfffttt11i;:,,
+            ,:....:;;ii11ttttt11iii;:,..,
+           .:,....,,:;iii111ii;;;::,...,.
+           ,:......,.,:;;;i;;:,,.......,` */
 </style>

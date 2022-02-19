@@ -55,132 +55,17 @@
     </div>
   </footer>
 </template>
+
 <script>
 export default {
   name: 'FooterPage'
 };
 </script>
+
 <style lang="stylus">
 @import "../utils/utils.styl"
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-//*
-//  box-sizing border-box
-//  padding 0
-//  margin 0
-//
-//html
-//  scroll-behavior smooth
-//  overflow-x hidden
-//
-//::-webkit-scrollbar
-//  display none
-//
-//body
-//  font-family 'Inter', sans-serif
-//  background-color #111111
-//
-//h1
-//  font-style normal
-//  font-weight bold
-//  font-size 57px
-//  line-height 73px
-//  letter-spacing -1.75px
-//  color #fafafa
-//
-//  //+Several(x1280, x1920)
-//  //  color #ffb300
-//
-//
-//  +x960()
-//    //color #e00f0f
-//    font-size 50px
-//    line-height 55px
-//    letter-spacing -1.5px
-//
-//  +x640()
-//    //color #1ed760
-//    font-size 50px
-//    line-height 55px
-//    letter-spacing -1.5px
-//
-//  +x320()
-//    //color #b565ff
-//    font-size 25px
-//    line-height 33px
-//    letter-spacing -1px
-//
-//section
-//  width 1280px
-//  margin 0 auto
-//  transition .5s
-//
-//  +x960()
-//    width 960px
-//  +x640()
-//    width 640px
-//  +x320()
-//    width 320px
-
-/* || [header] || header section || - || NOTE || */
-//padding-left 16px
-
-//.header a
-//  text-decoration none
-//  color #FAFAFA
-//
-//.header a:hover
-//  color rgba(222, 35, 35, 0.9)
-//
-//.all-products svg
-//  fill #FAFAFA
-//
-//.header-navigation-list li
-//  padding-right 24px
-//
-//.el-submenu__title i
-//  color #FAFAFA
-
-/* || [advantage] || advantage section || - || NOTE || */
-//.group-advantage-item
-//  background-color #1C1C1C
-//  color #DBD9D9
-//  margin 0 24px 24px 0
-//  width 264px
-//  padding 16px
-//  border-radius 6px
-//  transition .5s
-//
-//  +x960()
-//    height 266px
-//    width 436px
-//    margin 0 2px 24px 2px
-//    padding-left 18px
-//    padding-bottom 23px
-//  +x640()
-//    height 306px
-//    width 286px
-//    margin 0 2px 16px 2px
-//    padding-left 14px
-//    padding-bottom 23px
-//  +x320()
-//    height 306px
-//    width 288px
-//    margin 0 0 16px 0
-//    padding-left 15px
-//    padding-bottom 23px
-//
-//
-//.group-advantage-item:last-child
-//  margin 0 0 24px 0
-//
-//  +x320()
-//    margin 16px 0 0
-
-/* || [statistic] || statistic section || - || NOTE || */
-
-/* || [seller] || seller section || - || NOTE || */
-/* || [faq] || faq section || - || NOTE || */
 /* || [footer] || footer section || - || NOTE || */
 .footer
   display flex
@@ -330,50 +215,26 @@ export default {
   +x320()
     width 250px
 
-
 /* || [END] || end code || - || NOTE || */
 
-/* `                                 ;;.                    ;;.
-                                    ,t;i,                 ,;;;:
-                                    :t::i,              ,;i;:,:,
-                                    11;:;i;.          .;i;:::,,:
-                                   ,1;i11i11iii;;;;::;;:,:,..,,:.
-                                 .:1ttt11i;iii1111ii;:.,:,. .,::.
-                             ,i1tfftfffti;;ii;iiiiiii;:,,.  ,:;,
-                            ;Lfffttttft1;;;i111i;;iii11i:..,:,;;
-                           .fLLLt:,,;t1i;;1tttt1ii;iii1111i;:,:1;
-                           1C00Ci. .i1t111ii;;:,:;;iii11111i;,,it.
-                          ,C00Ct1i1tttftti:. :.  ,ii11111111i;:;1,
-                          t0GGGfffftffftt1i;::,:i1tfffttttt11iii1;
-                         ,CCGC;,...,;fLftt1tt11111tfLLftffftt11i11.
-                         iGLGt       tLfftttfffLffffffLfffttt1ii11i
-                         iGLf;.    .:i1tt11ffffffLfffftt1111ii;iiit;
-                         1GLt:..  ..:iii1111ttttt1ttt1111111i;;i;i1t
-                         ;GLLt,     .,::::,:i11111t11ttfttt1i;;;;iit:
-                         .LCLft;.........,:i1111ttttttttt11i;;;;;;i1i
-                          ,LLfff1iiiiiiii111111111tttt11iii;;;;::;;it;
-                           tfffftttt1111iiiiii1ttttt111iii;;;:::;;;iti
-                          :Ltttttt1111iiiiiii1tttt111111iii;:::;iii1t1
-                          ;Lftt11111111iiiiiiii;iii11111ii;;;ii111t1f1
-                          tLffftt1ii;ii;;;;;;;;ii11111111ii1tttttttttf
-                          fCLfftt11ii;;;;;;ii11t11111tttttffffffftttt1
-                         ,LCLLfft111iiiiiii11t111ttt11tttffttfffftt11:
-                      .:1fLLLffttt11iiiiii111111111ttft1tffffffftt1ii;
-                    ,1fLLCLLffttt111iiiii11111111t1tttfftfffffftt1i;;i
-                 .:tffLCCCCLfftt1111i1i1111111t1t1111ttffffttt11ii;;;i
-                ,fLffLGGCGCLfftt111ii11111t1tttttttt11tfffftt111i;;;;1
-               :fftfCGGLCCLLftt111ii1ii1111111tt11tttt1tttttttttti;;;t.
-               :11tLGGLfffffttt1111iiiiiiii11111111i1111tttttffft1;;;1.
-           .,;i111tCCLfftt11t11111i1ii1iiiiiii1i1ii11111ttttttfft1;:;:
-         ,:;iiiii1tLLfttftt1iiiiiiiiiiiiiiiii1iii11111i111ttttttti;;;,
-         ;;:;;;::1ffffffLLfftt111111iii1iiiii1ii111111ii11ttttttti;;i,
-         .:::::iLGftffLLLLLLfttttttt1iii11tttttt11iiiii111ttttttti;;;
-           ...;1tt1tfLLLLLLLfftt11t1ttfLCCLLLftt111iiii1111tttttt1ii.
-                   1CLLLLLLLfftttffLGGGGCLLCLft1t11iii111t111ttttt1,
-                   ,ttfffLLLLLfffLLGGLCCff11fttt11iiii11111111tt1t,
-                       ..:;itf1tfffttt;1ti;::11i;;;iiiii111111111i
-                             ..:1t1;::...:;, :1tfi,;ii;ii1111ii;i.
-                                 ..,;;:.....;11tLL;:,:::;;;iiii;:
-                                     ,;... .:,:i;1i,         ...
-                                              ....,` */
+/* `                                                   ..,;;:::::...,,,,:,,,,,,,,
+                                                    .,::,,::.1:.
+             ,,..        ;;:;,:::,.                .:,:  ,,. ,..
+        .1CCi:t;::,     ,1;::itttti:               ,,,. ,.
+       :GCCf1i111ii;.   .   .::11ii;.              ..,.
+      .CLffttffLLft1i. .   ,:::ii:,:.    ..... ..     .
+      tC1LttffftLL1;::.   ,;1tii1ti;    i111,.,,:.    .:,           ..
+     ,ti1t;iii::1fi;;::   :;;;;;ii;.    :;i:,::;;.     ;LCffftff1i1Lt.         .
+   ,,;;,;::i111tttttfi:.  .itfftLL1:::. :i: :;:::.      18@@@@@@@0Gf.
+itLft;;;;:;i11tfttt1ii, ,1CGGCCCLLCCLt. ,:. .,,:,      .GGG80LG8888:
+1t:,:if1;1;;i1i1i::,:;;L088CfLC0fi;1;  ,,.    .,.      ,LCtL00GG08@i
+;: ,1GC::;,:;i1tii11itGCCLtfLLCCf;,,:  ,,  .   .,      .ft;i;ifCCGG:
+i:tG0GftLtf1:::i111fCGft1,.:tti,.         .     .    .:;1tftttttttti;;:;:.  ....
+;it;;:,.:;i;,ii.,1C0GCCi.   .,.                     ,t1...;111LLfftii;;t1i,tCGCf
+1;,        .;;iifGGCCCi    ..,,                .  .:,..       ....,,,.,.,ifLffi:
+CCCL,:fLfi, :1L0GCLLf;      .,.                    ....,,,::,,,,,,,::1ttiitLfttt
+1ii:.C8008GiLGCCLfff;       .,.       ..    ......          ::i;::;:,iLLLLCLLLLf
+;11:1C0000GCCLLfftf;        .,.       ..,:,,,;;:;;;;;;;;iii1fLCLLCLt1it1ttttt1t1
+:;;;iffGCCLffftttt;..        .      .. .,,.........,,,,,:itLttffttfttt1111111i;;
+  .: :tLLfftttt1i, .         ,.    ...  ..,,........... ,i1fii1t1111111t1i11tt;t` */
 </style>
